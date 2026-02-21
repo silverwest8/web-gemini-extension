@@ -10,27 +10,21 @@ Google Gemini( gemini.google.com ) 대화에서 **각 메시지 위에 작성 �
 
 ## 설치 방법
 
-### 방법 1: 로컬 파일로 설치
+### Greasy Fork에서 설치 (권장)
+
+1. [Greasy Fork에서 "Gemini with Date" 검색](https://greasyfork.org/ko/scripts?q=gemini+with+date) 후 스크립트 페이지로 들어갑니다.
+2. **설치** 버튼을 누르면 Tampermonkey(또는 Violentmonkey 등)가 설치를 제안합니다. 승인하면 설치 완료입니다.
+3. [Gemini](https://gemini.google.com/app) 에 접속해 대화를 열면, 각 턴 위에 날짜·시간이 표시됩니다.
+
+이 저장소를 GitHub에 푸시하면 웹훅으로 Greasy Fork에 반영되므로, Greasy Fork로 설치한 경우 **업데이트가 나오면 Tampermonkey가 자동으로 업데이트를 제안**합니다.
+
+### 로컬 파일로 설치
 
 1. Tampermonkey 대시보드를 엽니다. (확장 아이콘 → Tampermonkey → Dashboard)
 2. **「+」** (새 스크립트 추가) 탭을 엽니다.
 3. 이 저장소의 `gemini-with-date.user.js` 파일 내용을 **전부 복사**해서 새 스크립트 편집기에 **덮어쓰기** 합니다.
 4. **Ctrl+S** (또는 Cmd+S)로 저장합니다.
 5. [Gemini](https://gemini.google.com/app) 에 접속해 대화를 열면, 각 턴 위에 날짜·시간이 표시됩니다.
-
-### 방법 2: URL로 설치 (GitHub 배포 후)
-
-1. 이 저장소를 GitHub에 푸시한 뒤, **raw 파일 URL**을 복사합니다.  
-   예: `https://raw.githubusercontent.com/사용자명/web-gemini-extension/main/gemini-with-date/gemini-with-date.user.js`
-2. Tampermonkey 대시보드 → **유틸리티** 탭 → **URL에서 설치** (또는 새 스크립트에서 파일 → URL에서 가져오기).
-3. 위 raw URL을 붙여넣고 설치합니다.  
-   이후 저장소를 업데이트하면 Tampermonkey에서 스크립트 업데이트를 제안할 수 있습니다.
-
-### 방법 3: 파일 경로로 불러오기
-
-1. Tampermonkey 대시보드 → **유틸리티** 탭 (또는 새 스크립트).
-2. "파일에서 설치" 등으로 `gemini-with-date.user.js` 파일을 선택해 설치합니다.  
-   (브라우저/매니저에 따라 "파일에서 가져오기" 메뉴가 있을 수 있습니다.)
 
 ## 사용 방법
 

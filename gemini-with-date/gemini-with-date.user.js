@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Gemini with Date
 // @namespace    https://github.com
-// @version      0.1.0
+// @version      1.0.0
 // @description  Gemini 대화에서 각 메시지 옆에 작성 시각(타임스탬프)을 표시합니다. (ChatGPT with Date의 Gemini 버전)
 // @author       You
 // @license      MIT
