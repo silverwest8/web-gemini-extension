@@ -8,6 +8,7 @@
 // @match        https://gemini.google.com/app*
 // @run-at       document-end
 // @grant        none
+// @icon         https://raw.githubusercontent.com/silverwest8/web-gemini-extension/main/gemini-with-date/gemini_with_date_logo.png
 // ==/UserScript==
 
 (function () {
